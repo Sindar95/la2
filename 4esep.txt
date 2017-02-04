@@ -1,0 +1,32 @@
+<html>
+    <head>
+<!-- @author Fara -->
+<!--  
+  To change this license header, choose License Headers in Project Properties.
+  To change this template file, choose Tools | Templates
+  and open the template in the editor.
+ -->
+        <meta charset="UTF-8">
+        <title></title>
+
+    </head>
+    <body>
+      
+<script>
+    
+var arr = [2, 11, 37, 42];
+
+var x = 11;
+for (var i = 0; i<arr.length; i++){
+    if(arr[i] === x) {
+	arr.splice(i, 1);
+    }
+}
+document.write("<br>Array: ",arr);
+
+
+</script>
+
+    </body>
+</html>
+
